@@ -1,0 +1,61 @@
+# =========================
+# Gowin FPGA project
+# =========================
+
+# User-specific Gowin project settings
+*.gprj.user
+
+# Gowin implementation / synthesis generated files
+impl/
+
+# Simulation generated files
+sim/
+
+# ModelSim / Questa generated files
+*.wlf
+*.mpf
+*.cr.mti
+
+# Simulation work libraries
+work/
+**/work/
+
+# Temporary files
+*.bak
+*.tmp
+*.log
+*.out
+*.svf
+**/transcript
+**/ip_new/
+**/ip_probe/
+# ModelSim temporary/debug files
+modelsim.ini
+tcl_stacktrace.txt
+wlftgfqvz0
+wlftsremxg
+
+# =========================
+# B-role perception workspace
+# =========================
+
+# Local deliverables and scratch/vendor downloads
+/deliverables/
+/tmp/
+/tmp_handbook.txt
+/work/
+
+# Reproducible build outputs and simulation caches
+**/build/
+**/temp/
+**/__pycache__/
+*.vvp
+*.vo
+*.fs
+*.bin
+*.binx
+*.db
+*.p
+*.pr
+*.vg
+*.zip

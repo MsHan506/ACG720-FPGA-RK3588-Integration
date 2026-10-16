@@ -1,0 +1,77 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/chatgpt/fpga/uart_minimal_test/sim_v2
+vtb_uart_ascii_test_v2
+Z1 !s110 1791709199
+!i10b 1
+!s100 VGIJ[B;k@bd^i8A<C;@b`3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7ZEU`XHYN9MMSJE<WAGbY3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1791709182
+8..\tb\tb_uart_ascii_test_v2.v
+F..\tb\tb_uart_ascii_test_v2.v
+!i122 0
+L0 3 79
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1791709199.000000
+!s107 ..\tb\tb_uart_ascii_test_v2.v|..\src\uart_ascii_test_v2.v|
+Z7 !s90 ..\src\uart_ascii_test_v2.v|..\tb\tb_uart_ascii_test_v2.v|
+!i113 1
+Z8 tCvgOpt 0
+vuart_ascii_test_v2
+R1
+!i10b 1
+!s100 85kiPD@IBIT4TEVYMezLH0
+R2
+IYd4L4>2oDP5^lSM9nNjhU0
+R3
+R0
+R4
+Z9 8..\src\uart_ascii_test_v2.v
+Z10 F..\src\uart_ascii_test_v2.v
+!i122 0
+L0 5 107
+R5
+r1
+!s85 0
+31
+R6
+Z11 !s107 ..\tb\tb_uart_ascii_test_v2.v|..\src\uart_ascii_test_v2.v|
+R7
+!i113 1
+R8
+vuart_tx_byte_v2
+R1
+!i10b 1
+!s100 @f87^Qn65l25aO3Omkogc0
+R2
+IDXL7k_P@F3E=XG@lfLJ]H3
+R3
+R0
+R4
+R9
+R10
+!i122 0
+L0 113 55
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8

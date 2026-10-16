@@ -1,0 +1,20 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AT-138B" pn="GW5AT-LV138PG484AC1/I0">gw5at138b-012</Device>
+    <FileList>
+        <File path="src/DIR.v" type="file.verilog" enable="1"/>
+        <File path="src/PI_controller.v" type="file.verilog" enable="1"/>
+        <File path="src/PWM.v" type="file.verilog" enable="1"/>
+        <File path="src/dual_motor_control.v" type="file.verilog" enable="1"/>
+        <File path="src/dual_motor_sync_tb.v" type="file.verilog" enable="1"/>
+        <File path="src/motor_control.v" type="file.verilog" enable="1"/>
+        <File path="src/motor_model.v" type="file.verilog" enable="1"/>
+        <File path="src/quadrature_encoder.v" type="file.verilog" enable="1"/>
+        <File path="src/single_motor_control.v" type="file.verilog" enable="1"/>
+        <File path="src/speed_measure.v" type="file.verilog" enable="1"/>
+        <File path="src/wheel_sync_control.v" type="file.verilog" enable="1"/>
+    </FileList>
+</Project>

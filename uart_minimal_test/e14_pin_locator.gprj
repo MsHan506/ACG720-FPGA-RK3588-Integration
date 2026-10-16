@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AT-60B" pn="GW5AT-LV60PG484AC1/I0">gw5at60b-002</Device>
+    <FileList>
+        <File path="src/e14_pin_locator.v" type="file.verilog" enable="1"/>
+        <File path="constraints/e14_pin_locator.cst" type="file.cst" enable="1"/>
+        <File path="constraints/e14_pin_locator.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

@@ -1,0 +1,13 @@
+// ACG720-GW5AT60 / GW5AT-LV60PG484AC1/I0
+IO_LOC "clk50M" Y18;
+IO_PORT "clk50M" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+
+// External CP2102 RXD candidate: GPIO0_9 / package ball E14.
+// The official pin table confirms GPIO0_9=E14 but does not identify the
+// physical P7 connector pin number. Do not infer a P7 pin number from 0_9.
+IO_LOC "uart_tx" E14;
+IO_PORT "uart_tx" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+
+// Known-safe onboard D2 LED; M22 is not used because it is an SSPI pin on 60B.
+IO_LOC "status_led" L21;
+IO_PORT "status_led" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;

@@ -1,0 +1,28 @@
+// ACG720-GW5AT60 plan for the photographed two-channel motor interface.
+// TEMPLATE ONLY: not included by any current project and cannot energize motors.
+// Driver mapping: CH1 -> PWM1/AIN1/AIN2, CH2 -> PWM2/BIN1/BIN2.
+// GPIO0 VCCIO must be physically configured for 3.3 V.
+
+IO_LOC "left_pwm" A15;
+IO_LOC "left_in1" A16;
+IO_LOC "left_in2" A18;
+IO_LOC "right_pwm" A19;
+IO_LOC "right_in1" F13;
+IO_LOC "right_in2" F14;
+IO_LOC "driver_stby" E13;
+IO_LOC "left_enc_a" E14;
+IO_LOC "left_enc_b" C13;
+IO_LOC "right_enc_a" B13;
+IO_LOC "right_enc_b" D14;
+
+IO_PORT "left_pwm" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=8 BANK_VCCIO=3.3;
+IO_PORT "left_in1" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=8 BANK_VCCIO=3.3;
+IO_PORT "left_in2" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=8 BANK_VCCIO=3.3;
+IO_PORT "right_pwm" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=8 BANK_VCCIO=3.3;
+IO_PORT "right_in1" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=8 BANK_VCCIO=3.3;
+IO_PORT "right_in2" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=8 BANK_VCCIO=3.3;
+IO_PORT "driver_stby" IO_TYPE=LVCMOS33 PULL_MODE=DOWN DRIVE=8 BANK_VCCIO=3.3;
+IO_PORT "left_enc_a" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_PORT "left_enc_b" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_PORT "right_enc_a" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_PORT "right_enc_b" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;

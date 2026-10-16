@@ -1,0 +1,11 @@
+# vsim -c work.tb_uart_ascii_test_v2 -do "run -all; quit -f" 
+# Start time: 17:00:00 on Oct 11,2026
+# Loading work.tb_uart_ascii_test_v2
+# Loading work.uart_ascii_test_v2
+# Loading work.uart_tx_byte_v2
+# run -all
+# PASS: received two FPGA_UART_OK messages
+# ** Note: $finish    : ../tb/tb_uart_ascii_test_v2.v(74)
+#    Time: 3077500 ns  Iteration: 1  Instance: /tb_uart_ascii_test_v2
+# End time: 17:00:00 on Oct 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

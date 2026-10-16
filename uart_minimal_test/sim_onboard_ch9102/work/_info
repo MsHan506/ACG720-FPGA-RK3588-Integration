@@ -1,0 +1,77 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/chatgpt/fpga/uart_minimal_test/sim_onboard_ch9102
+vtb_uart_onboard_ch9102_test
+Z1 !s110 1791712255
+!i10b 1
+!s100 oQ:;8T85XeAGLSC5ZcOI72
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`JCggYH9eP?fC0d13G[cL3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1791712248
+8..\tb\tb_uart_onboard_ch9102_test.v
+F..\tb\tb_uart_onboard_ch9102_test.v
+!i122 0
+L0 3 82
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1791712255.000000
+!s107 ..\tb\tb_uart_onboard_ch9102_test.v|..\src\uart_onboard_ch9102_test.v|
+Z7 !s90 ..\src\uart_onboard_ch9102_test.v|..\tb\tb_uart_onboard_ch9102_test.v|
+!i113 1
+Z8 tCvgOpt 0
+vuart_onboard_ch9102_test
+R1
+!i10b 1
+!s100 8925fgT2fz_[8bFVj4m673
+R2
+IBaC03dJFm6TY^LLc5cB5>2
+R3
+R0
+R4
+Z9 8..\src\uart_onboard_ch9102_test.v
+Z10 F..\src\uart_onboard_ch9102_test.v
+!i122 0
+L0 5 109
+R5
+r1
+!s85 0
+31
+R6
+Z11 !s107 ..\tb\tb_uart_onboard_ch9102_test.v|..\src\uart_onboard_ch9102_test.v|
+R7
+!i113 1
+R8
+vuart_tx_byte_onboard
+R1
+!i10b 1
+!s100 ?d6H5ClTokM_ZL`LN=MIV0
+R2
+Ido@HaYzg<lh1V5KNN2h=B0
+R3
+R0
+R4
+R9
+R10
+!i122 0
+L0 115 55
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 1
+R8

@@ -1,0 +1,52 @@
+PASS tb_uart_rx
+C:\chatgpt\fpga\b_perception\tb\tb_uart_rx.v:56: $finish called at 23950000 (1ps)
+PASS tb_tfmini_s_parser
+C:\chatgpt\fpga\b_perception\tb\tb_tfmini_s_parser.v:55: $finish called at 445000 (1ps)
+PASS tb_wt901_parser
+C:\chatgpt\fpga\b_perception\tb\tb_wt901_parser.v:50: $finish called at 525000 (1ps)
+PASS tb_filters
+C:\chatgpt\fpga\b_perception\tb\tb_filters.v:67: $finish called at 400000 (1ps)
+PASS WT901 automatic 9600/115200 baud reception
+C:\chatgpt\fpga\b_perception\tb\tb_perception_hub_dualbaud.v:96: $finish called at 12413960000 (1ps)
+PASS sensor OSD formatting and pixels
+C:\chatgpt\fpga\b_perception\camera\ov5640_ddr3_hdmi_full\src\vga\tb_sensor_osd_overlay.v:67: $finish called at 1040000 (1ps)
+PASS motor PWM, direction, encoder, speed, PI, and wheel sync logic
+C:\chatgpt\fpga\src\motor_logic_selfcheck_tb.v:172: $finish called at 537000 (1ps)
+PASS reverse encoder polarity uses speed magnitude
+C:\chatgpt\fpga\src\single_motor_reverse_feedback_tb.v:39: $finish called at 36000 (1ps)
+PASS timing-safe measured-CPR RPM monitor
+C:\chatgpt\fpga\src\wheel_rpm_monitor_1480_tb.v:25: $finish called at 2626000 (1ps)
+PASS autonomous stop, forward, obstacle turn, and watchdog logic
+C:\chatgpt\fpga\src\autonomous_motion_controller_tb.v:102: $finish called at 310000 (1ps)
+PASS safe motor command ramp
+C:\chatgpt\fpga\src\safe_motor_command_ramp_tb.v:77: $finish called at 826000 (1ps)
+PASS TB6612 standby, direction dead time, and per-motor reversal
+C:\chatgpt\fpga\src\tb6612_quad_safe_adapter_tb.v:80: $finish called at 156000 (1ps)
+PASS photographed two-channel TB6612 interface safety
+C:\chatgpt\fpga\src\tb6612_dual_safe_adapter_tb.v:46: $finish called at 156000 (1ps)
+PASS momentary S1/S2 low-duty motor commissioning safety
+C:\chatgpt\fpga\src\motor_button_commissioning_tb.v:64: $finish called at 460500000 (1ps)
+PASS safe start, rejected-start consumption, and stop latch
+C:\chatgpt\fpga\src\safe_start_stop_latch_tb.v:55: $finish called at 46500000 (1ps)
+PASS NEC infrared frame decode and inverse-byte checks
+C:\chatgpt\fpga\src\nec_ir_decoder_tb.v:45: $finish called at 71005000000 (1ps)
+PASS tb_ai_uart_command_receiver
+C:\chatgpt\fpga\src\tb_ai_uart_command_receiver.v:57: $finish called at 10409000000 (1ps)
+PASS remote modes, closed-loop ramp, red target follow, and route navigation
+C:\chatgpt\fpga\src\advanced_features_tb.v:161: $finish called at 306000 (1ps)
+PASS four-motor default lock and deliberate unlock
+C:\chatgpt\fpga\src\quad_motor_car_control_core_tb.v:73: $finish called at 246000 (1ps)
+test_align_target_to_right (test_edge_ai.PlannerTests.test_align_target_to_right) ... ok
+test_obstacle_has_priority (test_edge_ai.PlannerTests.test_obstacle_has_priority) ... ok
+test_search_when_target_missing (test_edge_ai.PlannerTests.test_search_when_target_missing) ... ok
+test_command_packet_and_clamp (test_edge_ai.ProtocolTests.test_command_packet_and_clamp) ... ok
+test_fragmented_telemetry_and_bad_checksum (test_edge_ai.ProtocolTests.test_fragmented_telemetry_and_bad_checksum) ... ok
+test_chinese_find_colored_bottle (test_edge_ai.SemanticTests.test_chinese_find_colored_bottle) ... ok
+test_person_follow_and_sequence (test_edge_ai.SemanticTests.test_person_follow_and_sequence) ... ok
+test_unknown_target_is_rejected (test_edge_ai.SemanticTests.test_unknown_target_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+OK
+PASS all protocol, filter, OSD, motor, navigation, target-follow, and edge-AI checks

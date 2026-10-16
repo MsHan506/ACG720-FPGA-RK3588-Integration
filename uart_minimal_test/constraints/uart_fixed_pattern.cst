@@ -1,0 +1,15 @@
+// ACG720-GW5AT60 / GW5AT-LV60PG484AC1/I0
+IO_LOC "clk50M" Y18;
+IO_PORT "clk50M" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+
+IO_LOC "reset_n" F15;
+IO_PORT "reset_n" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+
+// External test output candidate: GPIO0_9, FPGA package ball E14.
+// The official pin table does not identify the physical P7 connector pin.
+IO_LOC "uart_tx" E14;
+IO_PORT "uart_tx" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+
+// On-board D0 LED. It toggles after every complete eight-byte pattern.
+IO_LOC "status_led" M22;
+IO_PORT "status_led" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;

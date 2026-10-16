@@ -1,0 +1,11 @@
+// ACG720-GW5AT60 / GW5AT-LV60PG484AC1/I0
+IO_LOC "clk50M" Y18;
+IO_PORT "clk50M" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+
+// Signal to locate on the P7 connector by measurement.
+IO_LOC "e14_probe" E14;
+IO_PORT "e14_probe" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+
+// Known-safe onboard D2 LED reference.
+IO_LOC "status_led" L21;
+IO_PORT "status_led" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=8;

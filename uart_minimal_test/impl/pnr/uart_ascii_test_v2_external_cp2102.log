@@ -1,0 +1,29 @@
+Reading netlist file: "C:\chatgpt\fpga\uart_minimal_test\impl\gwsynthesis\uart_ascii_test_v2_external_cp2102.vg"
+Parsing netlist file "C:\chatgpt\fpga\uart_minimal_test\impl\gwsynthesis\uart_ascii_test_v2_external_cp2102.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\chatgpt\fpga\uart_minimal_test\constraints\uart_ascii_test_v2.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\chatgpt\fpga\uart_minimal_test\impl\pnr\uart_ascii_test_v2_external_cp2102.power.html" completed
+Generate file "C:\chatgpt\fpga\uart_minimal_test\impl\pnr\uart_ascii_test_v2_external_cp2102.pin.html" completed
+Generate file "C:\chatgpt\fpga\uart_minimal_test\impl\pnr\uart_ascii_test_v2_external_cp2102.rpt.html" completed
+Generate file "C:\chatgpt\fpga\uart_minimal_test\impl\pnr\uart_ascii_test_v2_external_cp2102.rpt.txt" completed
+Generate file "C:\chatgpt\fpga\uart_minimal_test\impl\pnr\uart_ascii_test_v2_external_cp2102.tr.html" completed
+Sun Oct 11 17:00:20 2026
+

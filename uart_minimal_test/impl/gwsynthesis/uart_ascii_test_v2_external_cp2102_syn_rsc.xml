@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="uart_ascii_test_v2" Register="46" Lut="90" T_Register="91(46)" T_Alu="31(0)" T_Lut="120(90)">
+ <SubModule name="u_uart_tx" Register="45" Alu="31" Lut="30" T_Register="45(45)" T_Alu="31(31)" T_Lut="30(30)"/>
+</Module>

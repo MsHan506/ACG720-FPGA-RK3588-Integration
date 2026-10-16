@@ -1,0 +1,11 @@
+# vsim -c work.tb_uart_onboard_ch9102_test -do "run -all; quit -f" 
+# Start time: 17:50:55 on Oct 11,2026
+# Loading work.tb_uart_onboard_ch9102_test
+# Loading work.uart_onboard_ch9102_test
+# Loading work.uart_tx_byte_onboard
+# run -all
+# PASS: received two ONBOARD_UART_OK messages
+# ** Note: $finish    : ../tb/tb_uart_onboard_ch9102_test.v(77)
+#    Time: 3695500 ns  Iteration: 1  Instance: /tb_uart_onboard_ch9102_test
+# End time: 17:50:56 on Oct 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
